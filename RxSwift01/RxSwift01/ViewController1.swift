@@ -55,6 +55,7 @@ class ViewController1: UIViewController {
         //####################使用Binder创建观察者#####################
         // 这里用Binder是最好的方式
         // 观察者
+        /*
         let observer2: Binder<String> = Binder(label) { (view, text) in
             view.text = text
         }
@@ -64,9 +65,48 @@ class ViewController1: UIViewController {
         .map({ "当前索引数：\($0)" })
         .bind(to: observer2)
         .disposed(by: disposeBag)
+        */
+        
+        //####################RxSwift 自带的可绑定属性（UI 观察者）#####################
+        // RxSwift 自带的可绑定属性（UI 观察者）
+        let observable2 = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
+        observable2
+            .map({ "当前索引数：\($0)" })
+            .bind(to:label.rx.text)
+            .disposed(by: disposeBag)
+        
+        let observable3 = Observable<Int>.interval(0.5, scheduler: MainScheduler.instance)
+//        observable3
+//        .map({ CGFloat($0) })
+//        .bind(to: label.fontSize)
+//        .disposed(by: disposeBag)
+        
+        observable3
+            .map({ CGFloat($0) })
+            .bind(to: label.rx.fontSize)
+            .disposed(by: disposeBag)
     }
     
     deinit {
         print("deinit")
+    }
+}
+
+// 自定义可绑定属性
+// 1. 通过对UI类进行扩展
+extension UILabel {
+    public var fontSize: Binder<CGFloat> {
+        return Binder(self) {label, fontSize in
+            label.font = UIFont.systemFont(ofSize: fontSize)
+        }
+    }
+}
+
+// 2 通过对Reactive类扩展
+extension Reactive where Base: UILabel {
+    public var fontSize: Binder<CGFloat> {
+        return Binder(self.base) { label, fontSize in
+            label.font = UIFont.systemFont(ofSize: fontSize)
+        }
     }
 }

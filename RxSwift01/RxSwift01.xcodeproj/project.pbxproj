@@ -16,6 +16,7 @@
 		0438F09A2186B2BB00785F69 /* RxSwift01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438F0992186B2BB00785F69 /* RxSwift01UITests.swift */; };
 		0438F0A92186B6E000785F69 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438F0A72186B6E000785F69 /* MusicListViewModel.swift */; };
 		0438F0AA2186B6E000785F69 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438F0A82186B6E000785F69 /* Music.swift */; };
+		044FB22D2189AC97007B112B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 044FB22C2189AC97007B112B /* README.md */; };
 		04DBCEAA21888ACD00ADD9DA /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04538DC4218873C500654D36 /* ViewController1.swift */; };
 		0EA3AA124144D802EC6C3B50 /* Pods_RxSwift01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C958A2A4F3F36036F803A10 /* Pods_RxSwift01.framework */; };
 		4F75B00076CC9FA743EB22F9 /* Pods_RxSwift01_RxSwift01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B60C0CBF0F0D175C3D4093 /* Pods_RxSwift01_RxSwift01UITests.framework */; };
@@ -57,6 +58,7 @@
 		0438F0A82186B6E000785F69 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		0438F0AB2186D9AE00785F69 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0438F0AC2186E30F00785F69 /* RxSwfit_Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwfit_Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		044FB22C2189AC97007B112B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		04538DC32188715500654D36 /* RxSwift_Observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Observer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04538DC4218873C500654D36 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		11EEFB554759DEE00DD97BDD /* Pods-RxSwift01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift01.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift01/Pods-RxSwift01.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		0438F06D2186B2B900785F69 = {
 			isa = PBXGroup;
 			children = (
+				044FB22C2189AC97007B112B /* README.md */,
 				0438F0782186B2B900785F69 /* RxSwift01 */,
 				0438F08D2186B2BB00785F69 /* RxSwift01Tests */,
 				0438F0982186B2BB00785F69 /* RxSwift01UITests */,
@@ -292,6 +295,7 @@
 			files = (
 				0438F0842186B2BA00785F69 /* LaunchScreen.storyboard in Resources */,
 				0438F0812186B2BA00785F69 /* Assets.xcassets in Resources */,
+				044FB22D2189AC97007B112B /* README.md in Resources */,
 				0438F07F2186B2B900785F69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
