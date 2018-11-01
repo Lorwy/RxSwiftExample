@@ -8,3 +8,9 @@ RxSwift 使用例子
    - 方式1：通过对UI类进行扩展
    - 方式2：通过对Reactive类进行扩展
 5. 使用RxSwift自带的可以绑定属性（观察者，就不用自己再去创建观察者了）
+6. Subjects订阅者的使用
+   - PublishSubject
+   - BehaviorSubject
+   - ReplaySubject
+   - Variable
+   
