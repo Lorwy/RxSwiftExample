@@ -13,4 +13,12 @@ RxSwift 使用例子
    - BehaviorSubject
    - ReplaySubject
    - Variable
-   
+7. 变换操作符
+   - buffer
+   - window
+   - map
+   - flatMap（已废弃，改用compactMap）
+   - flatMapLatest
+   - concatMap
+   - scan
+   - groupBy
