@@ -22,3 +22,14 @@ RxSwift 使用例子
    - concatMap
    - scan
    - groupBy
+8. 过滤操作符
+   - filter（输入过滤条件来过滤）
+   - distinctUntilChanged（过滤掉联系重复的事件）
+   - single（限制只发送一次事件）
+   - elementAt（处理指定位置的事件）
+   - ignoreElements（忽略所有元素，只发error或completed）
+   - take（只发送前n个事件，达到n个后就发送completed事件）
+   - takeLast（只发送后n个事件）
+   - skip（跳过前n个事件）
+   - Sample（根据notifier Observable来取source Observable中最新事件来发送）
+   - debounce（过滤高频产生的元素）
