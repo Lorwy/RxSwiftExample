@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04264EE9218ECBFC00F066CA /* RxSwift_条件和布尔操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_条件和布尔操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0438F0762186B2B900785F69 /* RxSwift01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0438F0792186B2B900785F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0438F07B2186B2B900785F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				04BDEE30218B06FF0060B1E1 /* RxSwift_Subjects.playground */,
 				04E3AC36218BE18700EE6DD4 /* RxSwift_变换操作符.playground */,
 				04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */,
+				04264EE9218ECBFC00F066CA /* RxSwift_条件和布尔操作符.playground */,
 			);
 			path = RxSwift01;
 			sourceTree = "<group>";
