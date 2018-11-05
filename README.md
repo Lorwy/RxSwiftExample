@@ -71,9 +71,9 @@ RxSwift 使用例子
    - skipUntil（一直跳过，知道notifier发出值或complete通知时才开始处理）
 
 10. 结合操作符
-   - startWith（序列开始之前插入一些事件元素，头部插队的感觉）
-   - merge（将多个序列合并成一个，顺序按产生先后）
-   - zip（将多个序列压缩成一个，顺序是一一对应发送）
-   - combineLatest（跟zip类似，区别是：当前产生的那个与另外的最新的那个结合）
-   - withLatestFrom（序列A发送元素时就从B中去最新的来发出，跟过滤操作符Sample类似）
-   - switchLatest（变换观察目标，每次切换会将那个目标未发送的事件处理）
+    - startWith（序列开始之前插入一些事件元素，头部插队的感觉）
+    - merge（将多个序列合并成一个，顺序按产生先后）
+    - zip（将多个序列压缩成一个，顺序是一一对应发送）
+    - combineLatest（跟zip类似，区别是：当前产生的那个与另外的最新的那个结合）
+    - withLatestFrom（序列A发送元素时就从B中去最新的来发出，跟过滤操作符Sample类似）
+    - switchLatest（变换观察目标，每次切换会将那个目标未发送的事件处理）
