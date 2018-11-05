@@ -62,6 +62,7 @@
 		044FB22C2189AC97007B112B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		04538DC32188715500654D36 /* RxSwift_Observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Observer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04538DC4218873C500654D36 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		04950E1F218FD21300264CEA /* RxSwift_结合操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_结合操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_过滤操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BDEE30218B06FF0060B1E1 /* RxSwift_Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04E3AC36218BE18700EE6DD4 /* RxSwift_变换操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_变换操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -146,6 +147,7 @@
 				04E3AC36218BE18700EE6DD4 /* RxSwift_变换操作符.playground */,
 				04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */,
 				04264EE9218ECBFC00F066CA /* RxSwift_条件和布尔操作符.playground */,
+				04950E1F218FD21300264CEA /* RxSwift_结合操作符.playground */,
 			);
 			path = RxSwift01;
 			sourceTree = "<group>";
