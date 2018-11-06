@@ -65,6 +65,7 @@
 		0495159C218FDEC10097FCC9 /* RxSwift_可观察序列Obervable的创建.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_可观察序列Obervable的创建.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_过滤操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BDEE30218B06FF0060B1E1 /* RxSwift_Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04BF561121916A5D002E27EF /* RxSwift_算数和聚合操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_算数和聚合操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04E3AC36218BE18700EE6DD4 /* RxSwift_变换操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_变换操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		11EEFB554759DEE00DD97BDD /* Pods-RxSwift01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift01.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift01/Pods-RxSwift01.release.xcconfig"; sourceTree = "<group>"; };
 		1C958A2A4F3F36036F803A10 /* Pods_RxSwift01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +149,7 @@
 				04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */,
 				04264EE9218ECBFC00F066CA /* RxSwift_条件和布尔操作符.playground */,
 				04950E1F218FD21300264CEA /* RxSwift_结合操作符.playground */,
+				04BF561121916A5D002E27EF /* RxSwift_算数和聚合操作符.playground */,
 			);
 			path = RxSwift01;
 			sourceTree = "<group>";
