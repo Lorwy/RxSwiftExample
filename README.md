@@ -78,7 +78,7 @@ RxSwift 使用例子
     - withLatestFrom（序列A发送元素时就从B中去最新的来发出，跟过滤操作符Sample类似）
     - switchLatest（变换观察目标，每次切换会将那个目标未发送的事件处理）
 
-10. [算数和聚合操作符](https://github.com/Lorwy/RxSwiftExample/blob/master/RxSwift01/RxSwift01/RxSwift_%E7%AE%97%E6%95%B0%E5%92%8C%E8%81%9A%E5%90%88%E6%93%8D%E4%BD%9C%E7%AC%A6.playground/Contents.swift)
+11. [算数和聚合操作符](https://github.com/Lorwy/RxSwiftExample/blob/master/RxSwift01/RxSwift01/RxSwift_%E7%AE%97%E6%95%B0%E5%92%8C%E8%81%9A%E5%90%88%E6%93%8D%E4%BD%9C%E7%AC%A6.playground/Contents.swift)
     - toArray（把一个序列转成一个数组，并作为一个单一事件发送，然后结束）
     - reduce（将初始值与序列中的每个值进行累计运算的结果作为耽搁值发送出去）
     - concat（把多个序列串联为一个序列，仅当前一个序列completed后才开始发送下一个虚拟）

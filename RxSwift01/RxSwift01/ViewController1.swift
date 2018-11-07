@@ -88,7 +88,7 @@ class ViewController1: UIViewController {
     }
     
     deinit {
-        print("deinit")
+        print("ViewController1 deinit")
     }
 }
 

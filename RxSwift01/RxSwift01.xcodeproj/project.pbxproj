@@ -17,6 +17,7 @@
 		0438F0A92186B6E000785F69 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438F0A72186B6E000785F69 /* MusicListViewModel.swift */; };
 		0438F0AA2186B6E000785F69 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438F0A82186B6E000785F69 /* Music.swift */; };
 		044FB22D2189AC97007B112B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 044FB22C2189AC97007B112B /* README.md */; };
+		04A544DE2192BA4C005D59EE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A544DD2192BA4C005D59EE /* ViewController2.swift */; };
 		04DBCEAA21888ACD00ADD9DA /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04538DC4218873C500654D36 /* ViewController1.swift */; };
 		0EA3AA124144D802EC6C3B50 /* Pods_RxSwift01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C958A2A4F3F36036F803A10 /* Pods_RxSwift01.framework */; };
 		4F75B00076CC9FA743EB22F9 /* Pods_RxSwift01_RxSwift01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B60C0CBF0F0D175C3D4093 /* Pods_RxSwift01_RxSwift01UITests.framework */; };
@@ -63,9 +64,11 @@
 		04538DC4218873C500654D36 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		04950E1F218FD21300264CEA /* RxSwift_结合操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_结合操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0495159C218FDEC10097FCC9 /* RxSwift_可观察序列Obervable的创建.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_可观察序列Obervable的创建.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04A544DD2192BA4C005D59EE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_过滤操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BDEE30218B06FF0060B1E1 /* RxSwift_Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BF561121916A5D002E27EF /* RxSwift_算数和聚合操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_算数和聚合操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04BF56122191706A002E27EF /* RxSwift_链接操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_链接操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04E3AC36218BE18700EE6DD4 /* RxSwift_变换操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_变换操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		11EEFB554759DEE00DD97BDD /* Pods-RxSwift01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift01.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift01/Pods-RxSwift01.release.xcconfig"; sourceTree = "<group>"; };
 		1C958A2A4F3F36036F803A10 /* Pods_RxSwift01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +140,7 @@
 				0438F0792186B2B900785F69 /* AppDelegate.swift */,
 				0438F07B2186B2B900785F69 /* ViewController.swift */,
 				04538DC4218873C500654D36 /* ViewController1.swift */,
+				04A544DD2192BA4C005D59EE /* ViewController2.swift */,
 				0438F07D2186B2B900785F69 /* Main.storyboard */,
 				0438F0802186B2BA00785F69 /* Assets.xcassets */,
 				0438F0822186B2BA00785F69 /* LaunchScreen.storyboard */,
@@ -150,6 +154,7 @@
 				04264EE9218ECBFC00F066CA /* RxSwift_条件和布尔操作符.playground */,
 				04950E1F218FD21300264CEA /* RxSwift_结合操作符.playground */,
 				04BF561121916A5D002E27EF /* RxSwift_算数和聚合操作符.playground */,
+				04BF56122191706A002E27EF /* RxSwift_链接操作符.playground */,
 			);
 			path = RxSwift01;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 				0438F07A2186B2B900785F69 /* AppDelegate.swift in Sources */,
 				0438F0A92186B6E000785F69 /* MusicListViewModel.swift in Sources */,
 				0438F0AA2186B6E000785F69 /* Music.swift in Sources */,
+				04A544DE2192BA4C005D59EE /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
