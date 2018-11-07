@@ -81,11 +81,11 @@ RxSwift 使用例子
 11. [算数和聚合操作符](https://github.com/Lorwy/RxSwiftExample/blob/master/RxSwift01/RxSwift01/RxSwift_%E7%AE%97%E6%95%B0%E5%92%8C%E8%81%9A%E5%90%88%E6%93%8D%E4%BD%9C%E7%AC%A6.playground/Contents.swift)
     - toArray（把一个序列转成一个数组，并作为一个单一事件发送，然后结束）
     - reduce（将初始值与序列中的每个值进行累计运算的结果作为耽搁值发送出去）
-    - concat（把多个序列串联为一个序列，仅当前一个序列completed后才开始发送下一个虚拟）
+    - concat（把多个序列串联为一个序列，仅当前一个序列completed后才开始发送下一个虚拟）
 12. [链接操作符](https://github.com/Lorwy/RxSwiftExample/blob/master/RxSwift01/RxSwift01/ViewController2.swift)
-    -  定时发送数据的多个订阅者因为订阅时刻不同，所以接收到的值是不同步的，将其转为可链接序列就能使其接收同步
+    -  定时发送数据的多个订阅者因为订阅时刻不同，所以接收到的值是不同步的，将其转为可链接序列就能使其接收同步
     - publish（转正常序列为可链接序列，需调用connect才开始发送事件）
     - replay（跟publish一样，区别是新订阅者还能接收到订阅之前的bufferSize个事件消息）
-    - multicast（接收一个Subject参数，每当序列发送事件时会触发Subject也发送事件）
+    - multicast（接收一个Subject参数，每当序列发送事件时会触发Subject也发送事件）
     - refCount（将可链接序列转为普通序列，有第一个订阅时序列被自动链接，没有订阅时序列自动断开）
     - share(relay:) （功能就是 replay 和 refCount 的组合）
