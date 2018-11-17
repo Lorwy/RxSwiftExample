@@ -20,6 +20,7 @@
 		0491BB142194139C0076700E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BB132194139C0076700E /* ViewController3.swift */; };
 		04A544DE2192BA4C005D59EE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A544DD2192BA4C005D59EE /* ViewController2.swift */; };
 		04DBCEAA21888ACD00ADD9DA /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04538DC4218873C500654D36 /* ViewController1.swift */; };
+		04F1392D219AE53D008DF201 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1392B219AD636008DF201 /* ViewController4.swift */; };
 		0EA3AA124144D802EC6C3B50 /* Pods_RxSwift01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C958A2A4F3F36036F803A10 /* Pods_RxSwift01.framework */; };
 		4F75B00076CC9FA743EB22F9 /* Pods_RxSwift01_RxSwift01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B60C0CBF0F0D175C3D4093 /* Pods_RxSwift01_RxSwift01UITests.framework */; };
 		E357BD67241477195F83EB1D /* Pods_RxSwift01_RxSwift01Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69B3BC96076FE2E24102BB1 /* Pods_RxSwift01_RxSwift01Tests.framework */; };
@@ -63,6 +64,7 @@
 		044FB22C2189AC97007B112B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		04538DC32188715500654D36 /* RxSwift_Observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Observer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04538DC4218873C500654D36 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		04551C5921980D6800B9D450 /* RxSwift_特征序列.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_特征序列.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0491BB12219405EC0076700E /* RxSwift_其他操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_其他操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0491BB132194139C0076700E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		04950E1F218FD21300264CEA /* RxSwift_结合操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_结合操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -70,9 +72,11 @@
 		04A544DD2192BA4C005D59EE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		04B766B6218D6155003053A9 /* RxSwift_过滤操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_过滤操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BDEE30218B06FF0060B1E1 /* RxSwift_Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04BEF3AA21955D80004560CD /* RxSwift_错误处理.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_错误处理.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BF561121916A5D002E27EF /* RxSwift_算数和聚合操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_算数和聚合操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04BF56122191706A002E27EF /* RxSwift_链接操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_链接操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		04E3AC36218BE18700EE6DD4 /* RxSwift_变换操作符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "RxSwift_变换操作符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		04F1392B219AD636008DF201 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		11EEFB554759DEE00DD97BDD /* Pods-RxSwift01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift01.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift01/Pods-RxSwift01.release.xcconfig"; sourceTree = "<group>"; };
 		1C958A2A4F3F36036F803A10 /* Pods_RxSwift01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E5F115234162E9C7EBCF5E /* Pods-RxSwift01-RxSwift01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift01-RxSwift01Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift01-RxSwift01Tests/Pods-RxSwift01-RxSwift01Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 				04538DC4218873C500654D36 /* ViewController1.swift */,
 				04A544DD2192BA4C005D59EE /* ViewController2.swift */,
 				0491BB132194139C0076700E /* ViewController3.swift */,
+				04F1392B219AD636008DF201 /* ViewController4.swift */,
 				0438F07D2186B2B900785F69 /* Main.storyboard */,
 				0438F0802186B2BA00785F69 /* Assets.xcassets */,
 				0438F0822186B2BA00785F69 /* LaunchScreen.storyboard */,
@@ -160,6 +165,8 @@
 				04BF561121916A5D002E27EF /* RxSwift_算数和聚合操作符.playground */,
 				04BF56122191706A002E27EF /* RxSwift_链接操作符.playground */,
 				0491BB12219405EC0076700E /* RxSwift_其他操作符.playground */,
+				04BEF3AA21955D80004560CD /* RxSwift_错误处理.playground */,
+				04551C5921980D6800B9D450 /* RxSwift_特征序列.playground */,
 			);
 			path = RxSwift01;
 			sourceTree = "<group>";
@@ -471,6 +478,7 @@
 				0438F07C2186B2B900785F69 /* ViewController.swift in Sources */,
 				04DBCEAA21888ACD00ADD9DA /* ViewController1.swift in Sources */,
 				0438F07A2186B2B900785F69 /* AppDelegate.swift in Sources */,
+				04F1392D219AE53D008DF201 /* ViewController4.swift in Sources */,
 				0438F0A92186B6E000785F69 /* MusicListViewModel.swift in Sources */,
 				0438F0AA2186B6E000785F69 /* Music.swift in Sources */,
 				0491BB142194139C0076700E /* ViewController3.swift in Sources */,
