@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		043D5D37219E6E6300327911 /* RxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D5D35219E6D5200327911 /* RxDataSourcesViewController.swift */; };
 		043D5D3A219E941E00327911 /* RefreshDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D5D38219E938000327911 /* RefreshDataViewController.swift */; };
+		043EDFAE219FE5F600B4295D /* EditAbleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EDFAC219FE4E600B4295D /* EditAbleTableViewController.swift */; };
 		045795F4219C4E2800D9EEAE /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045795F2219C4CDC00D9EEAE /* UISwitchViewController.swift */; };
 		045795F8219C52EA00D9EEAE /* UIActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045795F5219C51C800D9EEAE /* UIActivityIndicatorViewController.swift */; };
 		045795FC219C5A3C00D9EEAE /* TwoWayBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045795F9219C592800D9EEAE /* TwoWayBindingViewController.swift */; };
 		045795FE219C5AE100D9EEAE /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045795FD219C5AE100D9EEAE /* Operators.swift */; };
 		04579600219C5BA700D9EEAE /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045795FF219C5BA700D9EEAE /* UserViewModel.swift */; };
+		04870C7521A29ADA006081D0 /* DifferentCellViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04870C7321A2989A006081D0 /* DifferentCellViewContrller.swift */; };
 		048E13C8219D068C0082325C /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E13C7219D068C0082325C /* UIGestureRecognizerViewController.swift */; };
 		048E13CB219D0CAC0082325C /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E13C9219D0B960082325C /* UIDatePickerViewController.swift */; };
 		048E13CE219D1B810082325C /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E13CC219D19400082325C /* MyTableViewController.swift */; };
@@ -31,11 +33,13 @@
 /* Begin PBXFileReference section */
 		043D5D35219E6D5200327911 /* RxDataSourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourcesViewController.swift; sourceTree = "<group>"; };
 		043D5D38219E938000327911 /* RefreshDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshDataViewController.swift; sourceTree = "<group>"; };
+		043EDFAC219FE4E600B4295D /* EditAbleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAbleTableViewController.swift; sourceTree = "<group>"; };
 		045795F2219C4CDC00D9EEAE /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
 		045795F5219C51C800D9EEAE /* UIActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 		045795F9219C592800D9EEAE /* TwoWayBindingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindingViewController.swift; sourceTree = "<group>"; };
 		045795FD219C5AE100D9EEAE /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		045795FF219C5BA700D9EEAE /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		04870C7321A2989A006081D0 /* DifferentCellViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentCellViewContrller.swift; sourceTree = "<group>"; };
 		048E13C7219D068C0082325C /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
 		048E13C9219D0B960082325C /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
 		048E13CC219D19400082325C /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				048E13CC219D19400082325C /* MyTableViewController.swift */,
 				043D5D35219E6D5200327911 /* RxDataSourcesViewController.swift */,
 				043D5D38219E938000327911 /* RefreshDataViewController.swift */,
+				043EDFAC219FE4E600B4295D /* EditAbleTableViewController.swift */,
+				04870C7321A2989A006081D0 /* DifferentCellViewContrller.swift */,
 				04AA8EF7219BB33100EFC933 /* Main.storyboard */,
 				04AA8EFA219BB33200EFC933 /* Assets.xcassets */,
 				04AA8EFC219BB33200EFC933 /* LaunchScreen.storyboard */,
@@ -252,6 +258,7 @@
 				04579600219C5BA700D9EEAE /* UserViewModel.swift in Sources */,
 				048E13CB219D0CAC0082325C /* UIDatePickerViewController.swift in Sources */,
 				043D5D3A219E941E00327911 /* RefreshDataViewController.swift in Sources */,
+				043EDFAE219FE5F600B4295D /* EditAbleTableViewController.swift in Sources */,
 				045795FC219C5A3C00D9EEAE /* TwoWayBindingViewController.swift in Sources */,
 				045795F8219C52EA00D9EEAE /* UIActivityIndicatorViewController.swift in Sources */,
 				04AA8EF4219BB33100EFC933 /* AppDelegate.swift in Sources */,
@@ -259,6 +266,7 @@
 				048E13C8219D068C0082325C /* UIGestureRecognizerViewController.swift in Sources */,
 				045795F4219C4E2800D9EEAE /* UISwitchViewController.swift in Sources */,
 				04AA8F06219BC7CE00EFC933 /* UILabelViewController.swift in Sources */,
+				04870C7521A29ADA006081D0 /* DifferentCellViewContrller.swift in Sources */,
 				045795FE219C5AE100D9EEAE /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -33,6 +33,8 @@ class ViewController: UIViewController {
                 ItemModel.init(action: "MyTableViewController", value: "tableView基本用法"),
                 ItemModel.init(action: "RxDataSourcesViewController", value: "RxDataSources"),
                 ItemModel.init(action: "RefreshDataViewController", value: "刷新数据+搜索过滤"),
+                ItemModel.init(action: "EditAbleTableViewController", value: "可编辑表格"),
+                ItemModel.init(action: "DifferentCellViewContrller", value: "不同类型的cell混用+样式修改"),
             ])
         
         // 设置单元格数据
